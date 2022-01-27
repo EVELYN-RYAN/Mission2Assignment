@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\" />
-    <Content Remove="wwwroot\index.html" />
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\css\" />
     <Content Remove="wwwroot\img\" />
@@ -18,8 +17,5 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\lib\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="wwwroot\index.html" />
   </ItemGroup>
 </Project>
